@@ -1,4 +1,4 @@
-package Exercicios_medium;
+package qaacademy_exercicios_teste_unitario.Exercicios_medium;
 
 import javax.swing.JOptionPane;
 
