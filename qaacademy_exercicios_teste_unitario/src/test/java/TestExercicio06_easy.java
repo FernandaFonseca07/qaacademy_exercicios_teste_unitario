@@ -33,4 +33,12 @@ public class TestExercicio06_easy {
         String resultadoAtual = exercicio06_easy.verificaMediaEAprovacao(5, 5);
         Assert.assertEquals(resultadoEsperado, resultadoAtual);
     }
+    
+
+     @Test
+    public void testeValorInvalido (){
+        String resultadoEsperado = "Valor invalido. Digite Novamente!";
+        String resultadoAtual = exercicio06_easy.verificaMediaEAprovacao(-2, -5);
+        Assert.assertEquals(resultadoEsperado, resultadoAtual);
+    }
 }

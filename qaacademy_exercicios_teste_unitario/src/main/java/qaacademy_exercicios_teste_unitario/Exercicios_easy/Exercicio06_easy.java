@@ -10,13 +10,15 @@ public class Exercicio06_easy {
             return "O aluno foi aprovado";
         }
 
-        if (media < 5) {
+        if (media >=0 && media < 5) {
             return "O aluno foi reprovado";
         }
 
-        else {
+        if (media == 5) {
             return "O aluno está de exame";
         }
+
+        return "Valor invalido. Digite Novamente!";
 
     }
 }
