@@ -7,15 +7,15 @@ public class Exercicio06_easy {
         media = (nota1 + nota2) / 2;
 
         if (media > 5) {
-            return "A nota do aluno foi: " + media + " - " + "O aluno foi aprovado";
+            return "O aluno foi aprovado";
         }
 
         if (media < 5) {
-            return "A nota do aluno foi: " + media + " - " + "O aluno foi reprovado";
+            return "O aluno foi reprovado";
         }
 
         else {
-            return "A nota do aluno foi: " + media + " - " + "O aluno está de exame";
+            return "O aluno está de exame";
         }
 
     }
