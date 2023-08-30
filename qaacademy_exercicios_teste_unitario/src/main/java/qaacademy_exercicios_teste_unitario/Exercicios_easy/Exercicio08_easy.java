@@ -4,7 +4,7 @@ public class Exercicio08_easy {
     public double calcularImpostoDeRenda(double salarioBruto) {
         double impostoRenda=0.0, salarioLiquido=0.0;
 
-        if (salarioBruto <= 1903.98) {
+        if (salarioBruto > 0.0 && salarioBruto <= 1903.98) {
             impostoRenda = 0.0;
             return salarioLiquido = salarioBruto;
         }
