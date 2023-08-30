@@ -1,11 +1,11 @@
 package qaacademy_exercicios_teste_unitario.Exercicios_easy;
 
 public class Exercicio07_easy {
-    
+
     public double calcularINSS(double salario) {
         double inss=0.0;
       
-        if (salario <= 1045.00) {
+        if (salario >= 0.1 && salario <= 1045.00) {
             return inss = salario * 0.075;
         }
 
@@ -22,9 +22,11 @@ public class Exercicio07_easy {
         }
 
         if (salario >= 6101.07) {
-            return inss = 6101.06 * 0.075;
-        }
-        return inss;
+            return inss = 6101.06 * 0.14;
+                    }
+        
+                    else 
+                    return inss;
     
     }
 }
