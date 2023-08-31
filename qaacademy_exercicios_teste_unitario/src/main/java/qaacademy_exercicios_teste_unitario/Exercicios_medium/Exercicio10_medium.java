@@ -24,7 +24,7 @@ public class Exercicio10_medium {
 
     }
 
-    private void imprimeElementosFibonacci(int elemento, int[] fibonacci) {
+    public void imprimeElementosFibonacci(int elemento, int[] fibonacci) {
         int i;
         i = 0;
 
